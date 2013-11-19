@@ -216,3 +216,11 @@
   4. try y3w, p
   5. try yfp, p (on this line.  this yanks to 'p' and then pastes!)
 
+
+
+
+USEFUL TIPS:
+:gg=G to reformat (useful if your tabs/spaces are off)
+:set paste (if you are copying from another source and don't want to mess up the way it pastes)
+:vsp for vertical splits.  :e and then type a file to open it, ctrl + w ctrl + w to switch
+
