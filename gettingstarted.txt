@@ -21,7 +21,7 @@
 
   1. Press the <ESC> key (to make sure you are in Normal mode).
   2. Press <ESC> again, it always solves all the problems.
-  3. Press u to undo a change.  Press ctrl + r to redo (or undo an undo!)
+  3. Press u to undo a change.  Press <CTRL>+r to redo (or undo an undo!)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -112,8 +112,8 @@
 
                        Lesson 2.3a: MOTIONS (continue)
 
-  1. press 0 - to the start of the line
-  2. press $ - to the end of the line, INCLUDING the last character.
+  1. Press 0 to move to the beginning of the current line.
+  2. Press $ to move to the end of the current line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -133,7 +133,7 @@
 
                      Lesson 2.4a: USING A COUNT FOR MOTIONS
 
-   ** Typing a number before a motion repeats it that many times. **
+       ** Typing a number before a motion repeats it that many times. **
 
   1. Move the cursor to the start of the line marked ---> below.
 
@@ -174,6 +174,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                         Lesson 2.3: SEARCH
+
   1.  Type / + <word> to search the entire file from top to bottom for <word>
   2.  Type ? + <word> to search the entire file from bottom to top for <word>
   3.  To go to the next found <word>, press n.  to go to the previous <word>, press N
