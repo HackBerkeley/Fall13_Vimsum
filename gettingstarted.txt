@@ -149,3 +149,13 @@
   2. Type  dt:  to delete until and NOT including the colon: character
   3. try D
   4. try dd
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                        Lesson 2.2: NAVIGATION
+  1.  Type : + line number to navigate to a specific line number (useful for tracebacks)
+  2.  Type gg tp navigate to the top of the file
+  3.  Type G to navigate to the bottom of the file
+  4.  ctrl + u to go up, ctrl + d to go down
+  5.  % to go to the matching bracket
+
