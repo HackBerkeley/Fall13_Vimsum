@@ -80,9 +80,22 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                      Lesson 2.3a: Moar MOTIONS (continue x2)
+
   4. press f+<Character> - find the first occurence of the character on the line, starting at the cursor, and end on the found character
   4. press t+<Character> - find the first occurence of the <Character> on the line after the cursor, and end up on the character on the left of the found character
   5. try F + <Character>, T + <Character>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                     Lesson 2.4a: USING A COUNT FOR MOTIONS
+
+   ** Typing a number before a motion repeats it that many times. **
+
+  1. Move the cursor to the start of the line marked ---> below.
+
+  2. Type  2w  to move the cursor two words forward.
+
+  3. Type  3e  to move the cursor to the end of the third word forward.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
