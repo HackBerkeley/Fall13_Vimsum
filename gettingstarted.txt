@@ -159,6 +159,18 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+                        Lesson 2.1: CHANGE COMMANDS
+
+                      ** Type  cw  to delete a word, and enter INSERT mode **
+
+  The change command is one of the most used ones in Vim, master it!
+         c   motion
+         c   number   motion
+
+  4. try cc, C, cFy
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
                         Lesson 2.2: NAVIGATION
   1.  Type : + line number to navigate to a specific line number (useful for tracebacks)
   2.  Type gg tp navigate to the top of the file
@@ -182,12 +194,25 @@
   
   Try searching for a word and change it (cw), or delete it (dw)
 
+    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        Lesson 2.4: REPLACDE
   What if you want to search and replace?
   :%s/oldword/newword/g will replace every instance of old word to new word.  this is great for renaming variables!
   :s/oldword/neword/g replaces all of oldword on this line.  if you want to change only one word, don't include the /g
 
   Try replacing every 'try' with 'cat.
 
-
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        Lesson 2.5: COPY AND PASTE
+  Vim is painful if you don't know how to copy and paste.
+  use yy to YANK a line
+  
+  1.  Try go up to a ~~~~~~~~ line, and press yy.  Navigate back to this lesson and use p to PASTE.
+  2.  Do the same thing with a Lesson title.  Now you're making your own lesson
+  3.  Now you just have to find and change the numbering and title of your lesson :)
+  
+  Try yanking more lines by using <number>yy.
+  4. try y3w, p
+  5. try yfp, p (on this line.  this yanks to 'p' and then pastes!)
 
