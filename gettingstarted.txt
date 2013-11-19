@@ -47,7 +47,7 @@
 
                       ** Press i to enter INSERT mode. **
 
-  1. Edit the following line so it looks like the 2nd line:
+  1. Edit the following line to make it look like the second line:
      ---> There is text misng this .
      ---> There is some text missing from this line.
 
@@ -95,11 +95,18 @@
 
                        Lesson 2.3a: MOTIONS (exercises)
 
-  1. Navigate the following example from the beginning, only using w. How many
+  1. Navigate the following examples from the beginning, only using w. How many
      keypresses does it take? Then try navigating using W. How many keypresses?
      ---> Cows are cute~~ yay!!! haha
+     ---> class.method("some param", null, none, nil, void)
 
   2. Repeat the above exercise using e and E, then b and B (from the end).
+
+  /** TODO(ashleighc): MOVE THIS EXERCISE DOWN AFTER WE HAVE MORE SECTIONS DONE **/
+  3. Using your newfound mastery of vim, repeat the example from earlier.
+     Edit the following line to make it look like the second line:
+     ---> There is text misng this .
+     ---> There is some text missing from this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
