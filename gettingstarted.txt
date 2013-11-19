@@ -1,0 +1,51 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 We shamelessly rip off the awesome `vimtutor`
+             Mel reminds me that I didn't graduate elementary school
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        Lesson 1.1:  MOVING THE CURSOR
+
+   ** To move the cursor, press the h,j,k,l keys as indicated. **
+             ^
+             k              Hint:  The h key is at the left and moves left.
+       < h       l >               The l key is at the right and moves right.
+             j                     The j key looks like a down arrow.
+             v
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        Lesson 1.1a:  SCREW UP ALREADY?
+  1. Press the <ESC> key (to make sure you are in Normal mode).
+  2. Press <ESC> again, it always solves all the problems.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                            Lesson 1.2: EXITING VIM
+  1. Make sure you're in NORMAL mode (by pressing <ESC>)
+
+  2. Type:      :q! <ENTER>.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                            Lesson 1.2a: EXITING VIM (continue)
+
+  2. Type:      :wq <ENTER>.
+     This exits the editor, SAVING any changes you have made.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      Lesson 1.4: TEXT EDITING - INSERTION
+
+                        ** Press i to enter INSERT mode. **
+
+  1. Edit the following line so it looks like the 2nd line
+---> There is text misng this .
+---> There is some text missing from this line.
+
+  5. Go back to NORMAL mode by pressing <ESC>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      Lesson 1.4a: TEXT EDITING (continue)
+
+                        ** More ways to enter INSERT mode. **
+
+  1. press a to append
+  2. press s to delete the current character and insert
+  3. press o to insert a newline below the current line and enter INSERT mode
+  4. try A, S, O, I
+
