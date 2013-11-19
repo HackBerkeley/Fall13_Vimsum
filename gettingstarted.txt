@@ -21,7 +21,7 @@
 
   1. Press the <ESC> key (to make sure you are in Normal mode).
   2. Press <ESC> again, it always solves all the problems.
-
+  3. Press u to undo a change.  Press ctrl + r to redo (or undo an undo!)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                            Lesson 1.2: EXITING VIM
@@ -87,7 +87,7 @@
   2. press b - to the start of the line
   3. press e - to the end of the current word, INCLUDING the last character.
   4. try W, B, E
-
+  Try using these commands on this text (and undo/redo if you wish)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                      Lesson 2.3a: MOTIONS (continue)
@@ -99,7 +99,34 @@
 
                      Lesson 2.3a: Moar MOTIONS (continue x2)
 
+  4. press f+<Character> - find the first occurence of the character on the line, starting at the cursor, and end on the found character
+  4. press t+<Character> - find the first occurence of the <Character> on the line after the cursor, and end up on the character on the left of the found character
+  5. try F + <Character>, T + <Character>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                     Lesson 2.4a: USING A COUNT FOR MOTIONS
+
+   ** Typing a number before a motion repeats it that many times. **
+
+  1. Move the cursor to the start of the line marked ---> below.
+
+  2. Type  2w  to move the cursor two words forward.
+
+  3. Type  3e  to move the cursor to the end of the third word forward.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                         Lesson 2.1: DELETION COMMANDS
 
+                      ** Type  dw  to delete a word. **
+
+  In the combination of the delete operator and a motion mentioned above you
+  insert a count before the motion to delete more:
+         d   motion
+         d   number   motion
+
+  2. Type  d2w  to delete the two UPPER CASE words
+  2. Type  dt:  to delete until and NOT including the colon: character
+  3. try D
+  4. try dd
