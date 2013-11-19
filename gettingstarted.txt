@@ -101,3 +101,14 @@
 
                         Lesson 2.1: DELETION COMMANDS
 
+                      ** Type  dw  to delete a word. **
+
+  In the combination of the delete operator and a motion mentioned above you
+  insert a count before the motion to delete more:
+         d   motion
+         d   number   motion
+
+  2. Type  d2w  to delete the two UPPER CASE words
+  2. Type  dt:  to delete until and NOT including the colon: character
+  3. try D
+  4. try dd
