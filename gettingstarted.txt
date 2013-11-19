@@ -49,3 +49,21 @@
   3. press o to insert a newline below the current line and enter INSERT mode
   4. try A, S, O, I
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Lesson 2.3: MOTIONS
+  1. press w - move to the start of the next word
+  5. press b - to the start of the line
+  2. press e - to the end of the current word, INCLUDING the last character.
+  4. try W, B, E
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Lesson 2.3a: MOTIONS (continue)
+  4. press 0 - to the start of the line
+  3. press $ - to the end of the line, INCLUDING the last character.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Lesson 2.3a: Moar MOTIONS (continue x2)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        Lesson 2.1: DELETION COMMANDS
+
