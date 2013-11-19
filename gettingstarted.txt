@@ -172,35 +172,36 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                         Lesson 2.2: NAVIGATION
-  1.  Type : + line number to navigate to a specific line number (useful for tracebacks)
+  1.  Type :<Line Number> to navigate to a specific line number (useful for tracebacks)
   2.  Type gg tp navigate to the top of the file
   3.  Type G to navigate to the bottom of the file
-  4.  ctrl + u to go up, ctrl + d to go down
+  4.  <CTRL> + u to go up, <CTRL> + d to go down
   5.  % to go to the matching bracket
 
   Navigate to the last ) in the first sentence in this lesson.  Press % to navigate to the (
-  Instead of using j to go down, use : to go to the exact line number
-  Try gg and G
-  Use ctrl + d to proceed to the next lesson
+  Instead of using j to go down, use <Number>j or <Number>k to move around
+  Use Ctrl + d to proceed to the next lesson
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                         Lesson 2.3: SEARCH
 
-  1.  Type /<word> to search the entire file from top to bottom for <word>
-  2.  Type ?<word> to search the entire file from bottom to top for <word>
-  3.  To go to the next found <word>, press n.  to go to the previous <word>, press N
-  4.  To search within one line, use f<word>
-  
+  1.  Type /<Word> to search the entire file from top to bottom for <Word>
+  2.  Type ?<Word> to search the entire file from bottom to top for <Word>
+  3.  To go to the next found <Word>, press  n
+      To go to the previous <Word>, press N
+
   Try searching for a word and change it (cw), or delete it (dw)
-    
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.4: REPLACE
+                        Lesson 2.4: REPLACDE
 
   What if you want to search and replace?
-  :%s/oldword/newword/g will replace every instance of old word to new word.  this is great for renaming variables!
-  :s/oldword/neword/g replaces all of oldword on this line.  if you want to change only one word, don't include the /g
+  :%s/oldword/newword/g will replace every instance of oldword to newword.
+      this is great for renaming variables!
+  :s/oldword/neword/g replaces all of oldword on this line.
+      if you want to change only one word, don't include the /g
 
   Try replacing every 'try' with 'cat.
 
@@ -210,20 +211,17 @@
 
   Vim is painful if you don't know how to copy and paste.
   use yy to YANK a line
-  
+
   1.  Try go up to a ~~~~~~~~ line, and press yy.  Navigate back to this lesson and use p to PASTE.
   2.  Do the same thing with a Lesson title.  Now you're making your own lesson
   3.  Now you just have to find and change the numbering and title of your lesson :)
-  
+
   Try yanking more lines by using <number>yy.
   4. try y3w, p
   5. try yfp, p (on this line.  this yanks to 'p' and then pastes!)
 
-
-
-
 USEFUL TIPS:
 :gg=G to reformat (useful if your tabs/spaces are off)
 :set paste (if you are copying from another source and don't want to mess up the way it pastes)
-:vsp for vertical splits.  :e and then type a file to open it, ctrl + w ctrl + w to switch
+:vs for vertical splits.  :e and then type a file to open it, ctrl + w ctrl + w to switch
 If you are frustrated with something in vim, google how to do it right! :)
