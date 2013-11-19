@@ -80,6 +80,9 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                      Lesson 2.3a: Moar MOTIONS (continue x2)
+  4. press f+<Character> - find the first occurence of the character on the line, starting at the cursor, and end on the found character
+  4. press t+<Character> - find the first occurence of the <Character> on the line after the cursor, and end up on the character on the left of the found character
+  5. try F + <Character>, T + <Character>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
