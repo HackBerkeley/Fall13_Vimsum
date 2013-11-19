@@ -7,13 +7,13 @@
 
                         Lesson 1.1:  MOVING THE CURSOR
 
-        ** To move the cursor, press the h,j,k,l keys as indicated. **
+      ** To move the cursor, press the h,j,k,l keys as indicated. **
 
-             ^
-             k              Hint:  The h key is at the left and moves left.
-       < h       l >               The l key is at the right and moves right.
-             j                     The j key looks like a down arrow.
-             v
+           ^
+           k              Hint:  The h key is at the left and moves left.
+     < h       l >               The l key is at the right and moves right.
+           j                     The j key looks like a down arrow.
+           v
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -35,7 +35,9 @@
 
                       Lesson 1.2a: EXITING VIM (continue)
 
-  1. Type:      :wq <ENTER>.
+  1. Make sure you're in NORMAL mode (by pressing <ESC>)
+
+  2. Type:      :wq <ENTER>.
      This exits the editor, SAVING any changes you have made.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -44,7 +46,7 @@
 
                       ** Press i to enter INSERT mode. **
 
-  1. Edit the following line so it looks like the 2nd line.
+  1. Edit the following line so it looks like the 2nd line:
      ---> There is text misng this .
      ---> There is some text missing from this line.
 
@@ -56,10 +58,26 @@
 
                      ** More ways to enter INSERT mode. **
 
-  1. press a to append
-  2. press s to delete the current character and insert
-  3. press o to insert a newline below the current line and enter INSERT mode
-  4. try A, S, O, I
+  1. Press a to append (same as insert, but after the highlighted character).
+  2. Press s to delete the current character and enter INSERT mode.
+  3. Press o to insert a newline below the current line and enter INSERT mode.
+  4. Try the following commands: A, S, O, I
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Lesson 1.4b: TEXT EDITING (exercises)
+
+  1. Using a:
+     Insert some text after the ">" on the next line.
+     >
+
+  2. Using s:
+     Edit the following line to make it look like the second line:
+     9 cows
+     87 cows
+
+  3. Using o:
+     Insert some text below this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
