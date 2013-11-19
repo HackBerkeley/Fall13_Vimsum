@@ -223,4 +223,4 @@ USEFUL TIPS:
 :gg=G to reformat (useful if your tabs/spaces are off)
 :set paste (if you are copying from another source and don't want to mess up the way it pastes)
 :vsp for vertical splits.  :e and then type a file to open it, ctrl + w ctrl + w to switch
-
+If you are frustrated with something in vim, google how to do it right! :)
