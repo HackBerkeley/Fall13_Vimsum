@@ -161,7 +161,7 @@
 
                         Lesson 2.1: CHANGE COMMANDS
 
-                      ** Type  cw  to delete a word, and enter INSERT mode **
+           ** Type  cw  to delete a word, and enter INSERT mode **
 
   The change command is one of the most used ones in Vim, master it!
          c   motion
@@ -187,16 +187,17 @@
 
                         Lesson 2.3: SEARCH
 
-  1.  Type / + <word> to search the entire file from top to bottom for <word>
-  2.  Type ? + <word> to search the entire file from bottom to top for <word>
+  1.  Type /<word> to search the entire file from top to bottom for <word>
+  2.  Type ?<word> to search the entire file from bottom to top for <word>
   3.  To go to the next found <word>, press n.  to go to the previous <word>, press N
-  4.  To search within one line, use f + <word>
+  4.  To search within one line, use f<word>
   
   Try searching for a word and change it (cw), or delete it (dw)
-
     
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                        Lesson 2.4: REPLACDE
+
+                        Lesson 2.4: REPLACE
+
   What if you want to search and replace?
   :%s/oldword/newword/g will replace every instance of old word to new word.  this is great for renaming variables!
   :s/oldword/neword/g replaces all of oldword on this line.  if you want to change only one word, don't include the /g
@@ -204,7 +205,9 @@
   Try replacing every 'try' with 'cat.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
                         Lesson 2.5: COPY AND PASTE
+
   Vim is painful if you don't know how to copy and paste.
   use yy to YANK a line
   
