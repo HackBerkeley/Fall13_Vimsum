@@ -22,6 +22,7 @@
   1. Press the <ESC> key (to make sure you are in Normal mode).
   2. Press <ESC> again, it always solves all the problems.
   3. Press u to undo a change.  Press ctrl + r to redo (or undo an undo!)
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                            Lesson 1.2: EXITING VIM
@@ -87,21 +88,29 @@
   2. press b - to the start of the line
   3. press e - to the end of the current word, INCLUDING the last character.
   4. try W, B, E
+
   Try using these commands on this text (and undo/redo if you wish)
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                     Lesson 2.3a: MOTIONS (continue)
+                       Lesson 2.3a: MOTIONS (continue)
 
   1. press 0 - to the start of the line
   2. press $ - to the end of the line, INCLUDING the last character.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                     Lesson 2.3a: Moar MOTIONS (continue x2)
+                    Lesson 2.3a: Moar MOTIONS (continue x2)
 
-  4. press f+<Character> - find the first occurence of the character on the line, starting at the cursor, and end on the found character
-  4. press t+<Character> - find the first occurence of the <Character> on the line after the cursor, and end up on the character on the left of the found character
-  5. try F + <Character>, T + <Character>
+  1. Press f<Character>.
+     This finds the first occurrence of the character on the line, starting at
+     the cursor and ending on the found character.
+
+  2. Press t<Character>.
+     This finds the first occurrence of the character on the line, starting at
+     the cursor and ending on the character to the left of the found character.
+
+  3. Try F<Character> and T<Character>.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
