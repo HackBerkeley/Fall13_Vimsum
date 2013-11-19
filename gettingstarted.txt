@@ -166,3 +166,27 @@
   4.  ctrl + u to go up, ctrl + d to go down
   5.  % to go to the matching bracket
 
+  Navigate to the last ) in the first sentence in this lesson.  Press % to navigate to the (
+  Instead of using j to go down, use : to go to the exact line number
+  Try gg and G
+  Use ctrl + d to proceed to the next lesson
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                        Lesson 2.3: SEARCH
+  1.  Type / + <word> to search the entire file from top to bottom for <word>
+  2.  Type ? + <word> to search the entire file from bottom to top for <word>
+  3.  To go to the next found <word>, press n.  to go to the previous <word>, press N
+  4.  To search within one line, use f + <word>
+  
+  Try searching for a word and change it (cw), or delete it (dw)
+
+  What if you want to search and replace?
+  :%s/oldword/newword/g will replace every instance of old word to new word.  this is great for renaming variables!
+  :s/oldword/neword/g replaces all of oldword on this line.  if you want to change only one word, don't include the /g
+
+  Try replacing every 'try' with 'cat.
+
+
+
+
