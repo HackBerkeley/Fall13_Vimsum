@@ -159,6 +159,18 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+                        Lesson 2.1: CHANGE COMMANDS
+
+                      ** Type  cw  to delete a word, and enter INSERT mode **
+
+  The change command is one of the most used ones in Vim, master it!
+         c   motion
+         c   number   motion
+
+  4. try cc, C, cFy
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
                         Lesson 2.2: NAVIGATION
   1.  Type : + line number to navigate to a specific line number (useful for tracebacks)
   2.  Type gg tp navigate to the top of the file
