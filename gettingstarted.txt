@@ -62,7 +62,7 @@
   1. Press a to append (same as insert, but after the highlighted character).
   2. Press s to delete the current character and enter INSERT mode.
   3. Press o to insert a newline below the current line and enter INSERT mode.
-  4. Try the following commands: A, S, O, I
+  4. Also try the following commands: A, S, O, I
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -70,12 +70,12 @@
 
   1. Using a:
      Insert some text after the ">" on the next line.
-     >
+     --->
 
   2. Using s:
      Edit the following line to make it look like the second line:
-     9 cows
-     87 cows
+     ---> 9 cows
+     ---> 876 cows
 
   3. Using o:
      Insert some text below this line.
@@ -84,12 +84,22 @@
 
                             Lesson 2.3: MOTIONS
 
-  1. press w - move to the start of the next word
-  2. press b - to the start of the line
-  3. press e - to the end of the current word, INCLUDING the last character.
-  4. try W, B, E
+  1. Press w to move to the next word.
+  2. Press b to move to the beginning of a word.
+  3. Press e to move to the end of a word.
+  4. Also try the following commands: W, B, E
 
   Try using these commands on this text (and undo/redo if you wish)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                       Lesson 2.3a: MOTIONS (exercises)
+
+  1. Navigate the following example from the beginning, only using w. How many
+     keypresses does it take? Then try navigating using W. How many keypresses?
+     ---> Cows are cute~~ yay!!! haha
+
+  2. Repeat the above exercise using e and E, then b and B (from the end).
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
