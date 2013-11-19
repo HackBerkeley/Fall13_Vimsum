@@ -60,7 +60,7 @@
   2. press s to delete the current character and insert
   3. press o to insert a newline below the current line and enter INSERT mode
   4. try A, S, O, I
-
+  Try usig these commands on this text (and undo/redo if you wish)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                             Lesson 2.3: MOTIONS
@@ -69,7 +69,7 @@
   2. press b - to the start of the line
   3. press e - to the end of the current word, INCLUDING the last character.
   4. try W, B, E
-
+  Try using these commands on this text (and undo/redo if you wish)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                      Lesson 2.3a: MOTIONS (continue)
