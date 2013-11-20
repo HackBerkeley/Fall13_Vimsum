@@ -228,3 +228,4 @@ USEFUL TIPS:
 :e and then type a file to open it, ctrl + w ctrl + w to switch
 
 If you are frustrated with something in vim, Google is your friend! :)
+Or you can just use sublime text and not worry about any of it. :) 
