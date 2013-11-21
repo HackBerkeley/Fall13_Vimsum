@@ -228,10 +228,10 @@ USEFUL TIPS:
 :e and then type a file to open it, ctrl + w ctrl + w to switch
 
 Edit your  ~/.vimrc files to change configs. Some suggested changes 
-:set mouse=a
-nnoremap ; : 
+:set mouse=a "Allows you to use the mouse to scroll and select. 
+nnoremap ; : "No need to press shift every time you want to enter a command
 
-There's a lot you can do with the vimrc. Tired of writing your name over and over again?
+There's a lot you can do with the vimrc. 
 
 If you are frustrated with something in vim, Google is your friend! :)
 Or you can just use sublime text and not worry about any of it. :) 
