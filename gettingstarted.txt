@@ -195,7 +195,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.4: REPLACDE
+                        Lesson 2.4: REPLACE
 
   What if you want to search and replace?
   :%s/oldword/newword/g will replace every instance of oldword to newword.
