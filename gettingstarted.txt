@@ -227,5 +227,11 @@ USEFUL TIPS:
 :vs for vertical splits, or :sp for horizontal split.
 :e and then type a file to open it, ctrl + w ctrl + w to switch
 
+Edit your  ~/.vimrc files to change configs. Some suggested changes 
+:set mouse=a
+nnoremap ; : 
+
+There's a lot you can do with the vimrc. Tired of writing your name over and over again?
+
 If you are frustrated with something in vim, Google is your friend! :)
 Or you can just use sublime text and not worry about any of it. :) 
