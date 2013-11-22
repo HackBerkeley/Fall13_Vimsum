@@ -294,6 +294,4 @@
   There's a lot you can do with the vimrc. 
 
   If you are frustrated with something in vim, Google is your friend! :)
-  Or you can just use sublime text and not worry about any of it. :) 
-
 
