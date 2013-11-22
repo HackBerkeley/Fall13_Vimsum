@@ -43,7 +43,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                      Lesson 1.4: TEXT EDITING - INSERTION
+                      Lesson 1.3: TEXT EDITING - INSERTION
 
                       ** Press i to enter INSERT mode. **
 
@@ -52,10 +52,11 @@
      ---> There is some text missing from this line.
 
   2. Go back to NORMAL mode by pressing <ESC>.
+  3. Trying pressing u to undo a change. Then press <CTRL>+r to redo.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                      Lesson 1.4a: TEXT EDITING (continue)
+                      Lesson 1.3a: TEXT EDITING (continue)
 
                      ** More ways to enter INSERT mode. **
 
@@ -66,7 +67,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                      Lesson 1.4b: TEXT EDITING (exercises)
+                      Lesson 1.3b: TEXT EDITING (exercises)
 
   1. Using a:
      Insert some text after the ">" on the next line.
@@ -80,9 +81,11 @@
   3. Using o:
      Insert some text below this line.
 
+  Try using O to insert some text above this line.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                            Lesson 2.3: MOTIONS
+                            Lesson 2.1: MOTIONS
 
   1. Press w to move to the next word.
   2. Press b to move to the beginning of a word.
@@ -93,7 +96,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                       Lesson 2.3a: MOTIONS (exercises)
+                       Lesson 2.1a: MOTIONS (exercises)
 
   1. Navigate the following examples from the beginning, only using w. How many
      keypresses does it take? Then try navigating using W. How many keypresses?
@@ -102,22 +105,16 @@
 
   2. Repeat the above exercise using e and E, then b and B (from the end).
 
-  /** TODO(ashleighc): MOVE THIS EXERCISE DOWN AFTER WE HAVE MORE SECTIONS DONE **/
-  3. Using your newfound mastery of vim, repeat the example from earlier.
-     Edit the following line to make it look like the second line:
-     ---> There is text misng this .
-     ---> There is some text missing from this line.
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                       Lesson 2.3a: MOTIONS (continue)
+                       Lesson 2.2: MOTIONS (continue)
 
   1. Press 0 to move to the beginning of the current line.
   2. Press $ to move to the end of the current line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                    Lesson 2.3a: Moar MOTIONS (continue x2)
+                    Lesson 2.2b: Moar MOTIONS (continue x2)
 
   1. Press f<Character>.
      This finds the first occurrence of the character on the line, starting at
@@ -131,7 +128,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                     Lesson 2.4a: USING A COUNT FOR MOTIONS
+                     Lesson 2.3: USING A COUNT FOR MOTIONS
 
        ** Typing a number before a motion repeats it that many times. **
 
@@ -143,7 +140,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.1: DELETION COMMANDS
+                        Lesson 2.4: DELETION COMMANDS
 
                       ** Type  dw  to delete a word. **
 
@@ -152,14 +149,14 @@
          d   motion
          d   number   motion
 
-  2. Type  d2w  to delete the two UPPER CASE words
+  1. Type  d2w  to delete the two UPPER CASE words
   2. Type  dt:  to delete until and NOT including the colon: character
-  3. try D
-  4. try dd
+  3. Type  D    to delete everything in front of and under the cursor
+  4. Type  dd   to delete this entire line
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.1: CHANGE COMMANDS
+                        Lesson 2.5: CHANGE COMMANDS
 
            ** Type  cw  to delete a word, and enter INSERT mode **
 
@@ -167,71 +164,136 @@
          c   motion
          c   number   motion
 
-  4. try cc, C, cFy
+  1. Try using  cf!  at the beginning of the next line to match the second line.
+     vim is terrible! pretty cool.
+     --->  Vim is pretty cool.
+
+  2. Try using  cc  to replace the following line with something else.
+     --->  Replace me!
+     
+  3. Try using  C  to delete every character after and under the cursor and 
+     go into insert mode.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.2: NAVIGATION
-  1.  Type :<Line Number> to navigate to a specific line number (useful for tracebacks)
-  2.  Type gg tp navigate to the top of the file
-  3.  Type G to navigate to the bottom of the file
-  4.  <CTRL> + u to go up, <CTRL> + d to go down
-  5.  % to go to the matching bracket
+                        Lesson 3.1: NAVIGATION
 
-  Navigate to the last ) in the first sentence in this lesson.  Press % to navigate to the (
-  Instead of using j to go down, use <Number>j or <Number>k to move around
-  Use Ctrl + d to proceed to the next lesson
+  1.  Type :<Line Number> or <Line Number>G to navigate to a specific line 
+      number (useful for tracebacks)
+  2.  Type gg or [[ to navigate to the top of the file
+  3.  Type G or ]] to navigate to the bottom of the file
+  4.  Use { to go up a block, or } to go down a block.
+  5.  <CTRL> + u to go up, <CTRL> + d to go down
+  6.  Type zz to center the terminal window on your cursor. (very useful!)
+  7.  % to go to the matching bracket
+
+  Navigate to the last ) in the second sentence in this lesson.  Press % to 
+  navigate to the ( Instead of using j to go down, use <Number>j or <Number>k 
+  to move around. Use Ctrl + d to proceed to the next lesson.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.3: SEARCH
+                        Lesson 3.2: SEARCH
 
   1.  Type /<Word> to search the entire file from top to bottom for <Word>
   2.  Type ?<Word> to search the entire file from bottom to top for <Word>
-  3.  To go to the next found <Word>, press  n
+  3.  To go to the next found <Word>, press n
       To go to the previous <Word>, press N
 
   Try searching for a word and change it (cw), or delete it (dw)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.4: REPLACE
+                        Lesson 3.3: REPLACE
 
   What if you want to search and replace?
-  :%s/oldword/newword/g will replace every instance of oldword to newword.
-      this is great for renaming variables!
-  :s/oldword/neword/g replaces all of oldword on this line.
-      if you want to change only one word, don't include the /g
-      if you want to ignore case, include /i
+
+  :%s/oldword/newword/g 
+      Will replace every instance of oldword to newword.
+      This is great for renaming variables!
+  :s/oldword/neword/g 
+      Replaces all of oldword on this line.
+      If you want to change only one word, don't include the /g
+      If you want to ignore case, include /i
 
   Try replacing every 'try' with 'cat.
+  Search and replace is fully compatible with regex too!
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-                        Lesson 2.5: COPY AND PASTE
+                        Lesson 3.4: COPY AND PASTE
 
   Vim is painful if you don't know how to copy and paste.
   use yy to YANK a line
 
-  1.  Try go up to a ~~~~~~~~ line, and press yy.  Navigate back to this lesson and use p to PASTE.
+  1.  Try go up to a ~~~~~~~~ line, and press yy.  Navigate back to this lesson
+      and use p to PASTE.
   2.  Do the same thing with a Lesson title.  Now you're making your own lesson
-  3.  Now you just have to find and change the numbering and title of your lesson :)
+  3.  Now you just have to find and change the numbering and title of your
+      lesson :)
 
   Try yanking more lines by using <number>yy.
   4. try y3w, p
   5. try yfp, p (on this line.  this yanks to 'p' and then pastes!)
 
-USEFUL TIPS:
-:gg=G to reformat (useful if your tabs/spaces are off)
-:set paste (if you are copying from another source and don't want to mess up the way it pastes)
-:vs for vertical splits, or :sp for horizontal split.
-:e and then type a file to open it, ctrl + w ctrl + w to switch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Edit your  ~/.vimrc files to change configs. Some suggested changes 
-:set mouse=a "Allows you to use the mouse to scroll and select. 
-nnoremap ; : "No need to press shift every time you want to enter a command
+                        Lesson 3.5: VISUAL MODE!!!11!
 
-There's a lot you can do with the vimrc. 
+  1.  Type  V  on this line to go into Visual Line Mode.
+      Highlight all three of these lines,
+      and then press  d  to delete them!
 
-If you are frustrated with something in vim, Google is your friend! :)
-Or you can just use sublime text and not worry about any of it. :) 
+  2.  Type  V  on this line again.
+      Highlight these three sentences, and press y to copy them.
+      Then press p on the following line of dashes:
+      --------------------------------------------------------
+
+  3.  Press  <CTRL> + v  at the very front of the first line after the dashes.
+      Highlight the first character of all three lines, then press I.
+      Insert 4 spaces, then press enter and watch the magic.
+      --------------------------------------------------------
+      Indent all of
+      These lines by exactly
+      Four spaces, plz
+
+  4.  You can use plain ol'  v  to highlight and process any piece of text.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                                YOU DID IT!
+
+  Good job! You'll soon become a vim gosu!
+
+  1. Using your newfound mastery of vim, repeat the example from earlier.
+     Edit the following line to make it look like the second line:
+     ---> There is text misng this .
+     ---> There is some text missing from this line.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                                USEFUL TIPS
+
+  1.  gg=G 
+      Reformat. Useful if your tabs/spaces are off.
+
+  2.  :set paste 
+      If you are copying from another source and don't want to mess up the 
+      formatting. Alternatively, you can put  :set clipboard+=unnamed  in your
+      vimrc.
+
+  3.  :vs for vertical splits, or :sp for horizontal splits.
+
+  4.  :e and then type a file to open it in another buffer.
+      :b<Buffer Number> to switch between buffers.
+
+  Edit your  ~/.vimrc files to change configs. Some suggested changes:
+    :set mouse=a  "Allows you to use the mouse to scroll and select
+    nnoremap ; :  "No need to press shift every time you want to enter a command
+
+  There's a lot you can do with the vimrc. 
+
+  If you are frustrated with something in vim, Google is your friend! :)
+  Or you can just use sublime text and not worry about any of it. :) 
+
+
